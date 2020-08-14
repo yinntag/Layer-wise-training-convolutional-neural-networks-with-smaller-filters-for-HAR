@@ -5,7 +5,6 @@ import torch.nn.init as init
 import numpy as np
 import torchvision
 
-
 class LegoConv2d(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size, n_split, n_lego):
         super(LegoConv2d, self).__init__()
