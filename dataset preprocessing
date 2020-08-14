@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from collections import Counter
 
+
 DATASET_PATH = "./UCI_data/raw/UCI HAR Dataset/"
 
 INPUT_SIGNAL_TYPES = 
