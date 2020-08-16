@@ -1,6 +1,6 @@
 ## Layer-wise training convolutional neural networks with smaller filters for human activity recognition using wearable sensors
 
-This project aims to build a machine learning model for end-to-end systems to predict common human activities, Using Pytorch framework, convolutional neural nets with local loss functions for building a deep network. After the model is trained, it is saved and exported to an android application. The predictions are made using the model and get the UI interface.
+This project aims to build a machine learning model for end-to-end systems to predict common human activities. Using Pytorch framework, convolutional neural nets with local loss functions to build a deep network. After the model is trained, it is saved and exported to an android application. The predictions are made using the model and get the UI interface.
 
 This work is created by the paper. The link is https://arxiv.org/pdf/2005.03948.pdf.
 
