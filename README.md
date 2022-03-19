@@ -34,3 +34,14 @@ We appreciate all contributions. Please do not hesitate to let me know if you ha
 
 # Citation
 If you find it useful in your research, please consider citing.
+
+@article{tang2020layer,
+  title={Layer-wise training convolutional neural networks with smaller filters for human activity recognition using wearable sensors},
+  author={Tang, Yin and Teng, Qi and Zhang, Lei and Min, Fuhong and He, Jun},
+  journal={IEEE Sensors Journal},
+  volume={21},
+  number={1},
+  pages={581--592},
+  year={2020},
+  publisher={IEEE}
+}
