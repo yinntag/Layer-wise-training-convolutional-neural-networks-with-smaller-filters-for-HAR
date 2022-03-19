@@ -15,15 +15,15 @@ This project aims to build a machine learning model for end-to-end systems to pr
 Based on UCI dataset, this paper was implemented by the following steps:
 
 1. Get UCI dataset from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php), do data pre-processing by sliding window strategy and split the data into training and test sets；
-- Run dataset preprocessing.py to get them.
+- Run `python dataset preprocessing.py` to get them.
 
 2. Construct a deep CNNs using Lego Filters；
-- Run train.py to using Lego networks alone.
+- Run `python train.py` to using Lego networks alone.
 
 3. Create local loss functions for minimizing the loss so that the computational graph is detached after each hidden layer to prevent standard backward gradient flow；
 
 4. Build the whole model using the Pytorch framework to access at the end-to-end system and train the model for 500 Epochs；
-- Run train_local loss.py to using Lego networks with local loss functions.
+- Run `python train_local loss.py` to using Lego networks with local loss functions.
 
 5. Save the computation graph with weights, history, predictions and generate a single pt file；
 
